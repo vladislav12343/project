@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курс Веб-вёрстка — HTML/CSS с нуля</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container navbar">
+        <div class="logo">Верстка<span>.Курс</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О курсе</a></li>
+                <li><a href="#program">Программа</a></li>
+                <li><a href="#prices">Цены</a></li>
+                <li><a href="#signup">Запись</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Научись верстать сайты <span>с нуля</span></h1>
+                <p>Онлайн-курс по HTML и CSS. Практика 80% времени. Сделай первый сайт за 4 недели.</p>
+                <div class="hero-buttons">
+                    <a href="#signup" class="btn-primary">Записаться</a>
+                    <a href="#program" class="btn-secondary">Программа</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=600&h=450&fit=crop" alt="Код на ноутбуке">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Почему выбирают нас</h2>
+            <p class="subtitle">Современные технологии и реальные проекты в портфолио</p>
+            <div class="features">
+                <div class="card">
+                    <div class="icon">📱</div>
+                    <h3>Адаптивная вёрстка</h3>
+                    <p>Медиазапросы, резина, вёрстка под любые экраны от телефона до 4K.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">🎨</div>
+                    <h3>Современный CSS</h3>
+                    <p>Flexbox, Grid, анимации, переменные — всё на практике.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">💼</div>
+                    <h3>Итоговый проект</h3>
+                    <p>Полноценный сайт в портфолио для старта карьеры фрилансера.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="program">
+        <div class="container">
+            <h2>Программа обучения</h2>
+            <p class="subtitle">3 модуля интенсивной практики с обратной связью</p>
+            <div class="program-grid">
+                <div class="program-item">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=200&fit=crop" alt="HTML код">
+                    <div class="program-info">
+                        <h3>Структура HTML</h3>
+                        <p>Семантические теги, формы, таблицы, валидация, доступность.</p>
+                        <span class="tag">Модуль 1</span>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=400&h=200&fit=crop" alt="CSS стили">
+                    <div class="program-info">
+                        <h3>CSS: Flexbox и Grid</h3>
+                        <p>Сетки, выравнивание, адаптивные макеты без костылей.</p>
+                        <span class="tag">Модуль 2</span>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=200&fit=crop" alt="Анимация кода">
+                    <div class="program-info">
+                        <h3>Анимации + позиционирование</h3>
+                        <p>Keyframes, transition, hover, absolute/relative, transform.</p>
+                        <span class="tag">Модуль 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="prices">
+        <div class="container">
+            <h2>Стоимость обучения</h2>
+            <p class="subtitle">Выбери тариф, который подходит тебе</p>
+            <div class="price-table-wrapper">
+                <table class="price-table">
+                    <caption>Тарифы курса «Веб-вёрстка»</caption>
+                    <thead>
+                        <tr>
+                            <th>Пакет</th>
+                            <th>Доступ к лекциям</th>
+                            <th>Домашние задания</th>
+                            <th>Проверка ментором</th>
+                            <th>Цена</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Базовый</strong></td>
+                            <td>3 месяца</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>3 900 ₽</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Стандарт</strong></td>
+                            <td>6 месяцев</td>
+                            <td>✅</td>
+                            <td>❌</td>
+                            <td>5 900 ₽</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Профессионал</strong></td>
+                            <td>12 месяцев</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                            <td>8 900 ₽</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4"><strong>Первый урок бесплатно</strong></td>
+                            <td><strong>0 ₽</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="signup">
+        <div class="container">
+            <div class="form-block">
+                <h2>Запишись на бесплатный урок</h2>
+                <p>Оставь заявку, и мы подберём удобное время</p>
+                <form id="courseForm">
+                    <div class="form-group">
+                        <label>Ваше имя *</label>
+                        <input type="text" id="name" placeholder="Анна Смирнова" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Телефон *</label>
+                        <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" id="email" placeholder="anna@mail.ru">
+                    </div>
+                    <div class="form-group">
+                        <label>Уровень подготовки</label>
+                        <input type="text" placeholder="Начинающий / Средний / Продвинутый">
+                    </div>
+                    <div class="checkbox-row">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="agreement" required>
+                            <span>Я согласен на обработку персональных данных</span>
+                        </label>
+                    </div>
+                    <button type="submit">Отправить заявку</button>
+                </form>
+                <div class="promo">
+                    <span>Акция</span>
+                    <p>При оплате полного курса — скидка 20% и доступ к закрытому разговорному клубу</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Верстка.Курс — обучение веб-вёрстке с нуля</p>
+    <p>Первый урок бесплатно. Без обязательств.</p>
+</footer>
+<script>
+    const form = document.getElementById('courseForm');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Заявка отправлена! Мы свяжемся с вами.');
+        form.reset();
+    });
+</script>
+
+</body>
+</html>
